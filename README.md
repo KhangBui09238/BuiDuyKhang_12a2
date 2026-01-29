@@ -24,4 +24,4 @@ Bạn có thể xem website đang chạy online tại đây:
 👉 https://github.com/KhangBui09238/BuiDuyKhang_12a2
 
 ---
-*© 2025 Lớp 12A2 - THCS-THPT Minh Hòa. Được phát triển bởi Bùi Duy Khang
+© 2025 Lớp 12A2 - THCS-THPT Minh Hòa. Được phát triển bởi Bùi Duy Khang
