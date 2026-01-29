@@ -1,0 +1,182 @@
+/* style.css - Phiên bản nâng cấp */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif; /* Font chữ tròn, hiện đại */
+}
+
+body {
+    background-color: #f0f4f8;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* --- HEADER & MENU --- */
+header {
+    /* Màu chuyển sắc (Gradient) nhìn sang hơn */
+    background: linear-gradient(135deg, #0984e3, #74b9ff);
+    padding: 20px 0;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 50px; /* Bo tròn kiểu viên thuốc */
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+nav a:hover, nav a.active {
+    background-color: white;
+    color: #0984e3;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+/* --- BỐ CỤC CHUNG --- */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05); /* Bóng đổ mềm */
+}
+
+h1 {
+    text-align: center;
+    color: #2d3436;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.slogan {
+    text-align: center;
+    font-style: italic;
+    color: #e17055; /* Màu cam đất */
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #2d3436;
+    color: #b2bec3;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+/* --- HÌNH ẢNH CHUNG --- */
+.hero-image {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+.hero-image:hover {
+    transform: scale(1.01); /* Phóng to nhẹ khi di chuột */
+}
+
+/* --- TRANG THÀNH VIÊN (CARD ĐẸP HƠN) --- */
+.member-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Căn giữa */
+    gap: 30px;
+}
+
+.member-card {
+    width: 28%;
+    background: white;
+    padding: 25px 15px;
+    border-radius: 20px;
+    text-align: center;
+    /* Hiệu ứng bóng đổ và viền nhẹ */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.member-card:hover {
+    transform: translateY(-10px); /* Nổi lên khi di chuột */
+    box-shadow: 0 15px 35px rgba(9, 132, 227, 0.2);
+    border-color: #74b9ff;
+}
+
+.member-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.member-card h3 {
+    color: #2d3436;
+    margin-bottom: 5px;
+}
+
+.role {
+    color: #0984e3;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    background: #e1f5fe;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+/* --- TRANG HOẠT ĐỘNG (KIỂU CARD LỚN) --- */
+.activity-item {
+    margin-bottom: 50px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden; /* Bo tròn ảnh bên trong */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.activity-item:hover {
+    transform: translateY(-5px);
+}
+
+.activity-item img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.activity-content {
+    padding: 25px;
+}
+
+.activity-content h3 {
+    color: #0984e3;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
