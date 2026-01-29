@@ -21,7 +21,7 @@ Chào mừng bạn đến với "đại bản doanh" trực tuyến của lớp 
 
 ## 🚀 Xem trực tiếp
 Bạn có thể xem website đang chạy online tại đây: 
-👉 https://github.com/KhangBui09238/BuiDuyKhang_12a2
+👉 https://khangbui09238.github.io/BuiDuyKhang_12a2/
 
 ---
 © 2025 Lớp 12A2 - THCS-THPT Minh Hòa. Được phát triển bởi Bùi Duy Khang
